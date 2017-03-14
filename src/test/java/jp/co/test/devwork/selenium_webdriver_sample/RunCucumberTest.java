@@ -7,6 +7,6 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(strict = false, format = { "pretty", "json:target/cucumber.json" })
-public class CucumberTestRunner {
+public class RunCucumberTest {
 
 }
